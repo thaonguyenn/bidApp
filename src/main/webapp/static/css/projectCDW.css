@@ -1,0 +1,321 @@
+@charset "UTF-8";
+.context-dark, .bg-gray-dark, .bg-primary {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+	color: #ffffff;
+}
+
+.nav-list li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+	margin-left: 0;
+	opacity: 1;
+	visibility: visible;
+}
+
+ul, ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-list li a:before {
+	content: "\f14f";
+	font: 400 21px/1 "Material Design Icons";
+	color: #4d6de6;
+	display: inline-block;
+	vertical-align: baseline;
+	margin-left: -28px;
+	margin-right: 7px;
+	opacity: 0;
+	visibility: hidden;
+	transition: .22s ease;
+}
+
+.showme {
+	display: none;
+}
+
+.contact {
+	background-color: #fdd513;
+}
+
+.bg {
+	margin-top: -25px;
+	background-image: url(./images/bg2.jpg);
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-image: url(./images/bg2.jpg);
+}
+
+.fontMenuLevel {
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+
+.showhim:hover .showme {
+	display: block;
+}
+
+.pictureHover:hover, .pictureHover:active {
+	opacity: 1;
+}
+
+.fontHeader1 {
+	color: black;
+}
+
+.contact {
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	width: 200px;
+	height: 50px;
+	font-family: raleway, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+}
+
+.picture {
+	width: 270px;
+	height: 300px;
+}
+
+.picture1 {
+	width: 270px;
+	height: 217px;
+}
+
+.h2-style {
+	color: gray;
+}
+
+.post-modern-price {
+	font-size: 15px;
+	line-height: 1;
+	font-family: montserrat, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+	color: #adad85;
+}
+
+.post-modern-price-value {
+	margin-top: 7px;
+	font-family: montserrat, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+	font-size: 47px;
+	display: block;
+	line-height: 1;
+	color: #000;
+	font-family: montserrat, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+}
+
+h5 {
+	font-size: 15px;
+	line-height: 1.52632;
+	color: #191919;
+	font-weight: 600;
+}
+
+a {
+	font-size: 18px;
+}
+
+.novi-bg-img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-gray-100 {
+	background-color: #f2f2f2;
+}
+
+.section-top-shadow {
+	position: relative;
+	
+}
+
+.section-lg {
+	padding: 100px 0;
+}
+
+.section-sm, .section-md, .section-lg, .section-xl {
+	padding: 80px 0;
+}
+
+.box-icon-classic-icon {
+	width: 167px;
+	height: 167px;
+	font-size: 70px;
+}
+
+.box-icon-classic-icon {
+	background-color: #ffd613;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #000;
+	font-size: 50px;
+}
+
+.icon {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1;
+}
+
+.linearicons, [class^="linearicons-"], [class*=" linearicons-"] {
+	font-family: 'Linearicons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.text-sm-left {
+	font-size: 40px;
+	font-weight: bolder;
+	margin-top: -10px;
+	font-family: raleway, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+}
+
+.box-icon-classic-title {
+	font-weight: bold;
+	margin-top: 25px;
+	color: #000000;
+	font-size: 25px;
+	font-family: raleway, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+	font-size: 25px;
+}
+
+.description {
+	font-family: raleway, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+	font-size: 15px;
+	color: gray;
+	margin-top: 15px;
+}
+
+.fontHeader1 {
+	position: relative;
+	left: 180px;
+	top: 60px;
+	font-size: 60px;
+	border: 2px;
+	font-family: raleway, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+}
+
+.fontHeader2 {
+	position: relative;
+	left: 180px;
+	top: 65px;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: raleway, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+}
+
+.register {
+font-weight:bolder;
+	position: relative;
+	left: 280px;
+	top: -85px;
+	font-size: 20px;
+	font-family: raleway, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+}
+
+.curve {
+	position: relative;
+	left: 445px;
+	top: -50px;
+}
+
+.text-left {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.setPrice {
+	position: relative;
+	margin-left: 166px;
+	margin-top: -217px;
+	font-size: 12px;
+	font-family: monospace;
+	font-weight: bolder;
+}
+
+.setPrice1 {
+	position: relative;
+	margin-left: 170px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+.setText {
+	margin-left: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 210px;
+}
+
+.bid {
+	position: relative;
+	margin-top: -30px;
+	margin-left: 35px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	font-family: raleway, -apple-system, BlinkMacSystemFont, segoe ui,
+		Roboto, helvetica neue, Arial, sans-serif;
+}
+
+.viewMore {
+	margin-left: 1200px;
+	margin-top: 30px;
+}
+
+.time {
+	margin-left: -1px;
+	margin-top: -270px;
+}
+
+.logoAuction {
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	width: 280px;
+	height: 50px;
+	top: 10px;
+	width: 280px;
+}
+
+.icon1 {
+	width: 60px;
+	height: 60px;
+}
+
+.fontHeader3 {
+	font-size: 29px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: -.01em;
+}
